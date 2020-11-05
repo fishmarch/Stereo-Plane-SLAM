@@ -15,4 +15,4 @@ If you use our system in an academic work, please cite the paper.
 # Stereo-Plane-SLAM System
 We build our SLAM system based on ORB-SLAM2 Stereo version. For some prerequisites, you could read their page, [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2)
 
-We only add PCL library to deal with point cloud, we tested on PCL-1.80. SP-SLAM only supports Stereo sensor. We have not removed those unrelevent components coming from ORB-SLAM2.
+We only add PCL library to deal with point cloud, we tested on PCL-1.80. The system only supports Stereo sensor. We have not removed those unrelevent components coming from ORB-SLAM2.
