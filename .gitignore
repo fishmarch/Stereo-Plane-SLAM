@@ -21,7 +21,6 @@ Vocabulary/ORBvoc.txt
 build/
 *~
 lib/
-core
 *build*
 bug*
 *.so
