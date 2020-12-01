@@ -352,7 +352,7 @@ void Frame::AssignFeaturesToGrid()
         mvDisparity_l.clear();
         mvDisparity_l.resize(mvKeys_Line.size(),pair<float,float>(-1,-1));
         mvLineEndPoints.clear();
-        mvLineEndPoints.resize(mvKeys_Line.size(),pair<cv::Point3d,cv::Point3d>((0,0,0),(0,0,0)));
+        mvLineEndPoints.resize(mvKeys_Line.size(),pair<cv::Point3d,cv::Point3d>(cv::Point3d(0,0,0),cv::Point3d(0,0,0)));
         mvLine3DDirections.clear();
         mvLine3DDirections.resize(mvKeys_Line.size(), cv::Point3d(0,0,0));
 
