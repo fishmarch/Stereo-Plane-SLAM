@@ -1,6 +1,6 @@
 # Stereo-Plane-SLAM
 **Authors:** 
-Zhang, Xiaoyu; Liao, Ziwei; Qi, Xianyu; Wang, Wei. 
+Zhang, Xiaoyu; Wang, Wei; Qi, Xianyu; Liao, Ziwei. 
 
 Plane  feature  is  a  kind  of  stable  landmark  to reduce drift error in SLAM system. It is easy and fast to extract planes  from  dense  point  cloud,  which  is  commonly  acquired from RGB-D camera or lidar. But for stereo camera, it is hard to compute dense point cloud accurately and efficiently. In this project, we propose a novel method to compute plane parameters using  intersecting  lines  which  are  extracted  from  the  stereo image.  The  plane  features  commonly  exist  on  the  surface  of man-made  objects  and  structure,  which  have  regular  shape and  straight  edge  lines.  In  3D  space,  two  intersecting  lines can  determine  such  a  plane.  Thus  we  extract  line  segments from both stereo left and right image. By stereo matching, we compute  the  endpoints  and  line  directions  in  3D  space,  and then  the  planes  from  two  intersecting  lines.  We  discard  those inaccurate  plane  features  in  the  frame  tracking.  Adding  such plane  features  in  stereo  SLAM  system  reduces  the  drift  error and  refines  the  performance.  We  test  our  proposed  system  on public  datasets  and  demonstrate  its  robust  and  accurate  estimation results, compared with state-of-the-art SLAM systems.
 
