@@ -11,6 +11,9 @@ If you have some questions to discuss, you could contact me by e-mail (zhang_xy@
 
 If you use our system in an academic work, please cite the paper.
 
+### Video
+
+https://www.youtube.com/watch?v=3VWF-JJU9T8
 
 # Stereo-Plane-SLAM System
 We build our SLAM system based on ORB-SLAM2 Stereo version. For some prerequisites, you could read their page, [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2)
