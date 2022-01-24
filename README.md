@@ -10,7 +10,16 @@ For more details, please read our paper [Stereo  Plane  SLAM  Based  on  Interse
 If you have some questions to discuss, you could contact me by e-mail (zhang_xy@buaa.edu.cn) for fast reply.
 
 If you use our system in an academic work, please cite the paper.
-
+```
+@INPROCEEDINGS{9635961,  
+  author={Zhang, Xiaoyu and Wang, Wei and Qi, Xianyu and Liao, Ziwei},  
+  booktitle={2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},   
+  title={Stereo Plane SLAM Based on Intersecting Lines},   
+  year={2021}, 
+  pages={6566-6572},  
+  doi={10.1109/IROS51168.2021.9635961}
+}
+```
 ### Video
 
 https://www.youtube.com/watch?v=3VWF-JJU9T8
